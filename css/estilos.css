@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eddcd2;
+    height: 300px;
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    background-color: #f0efeb;
+    height: 300px;
+    flex-direction: column;
+}
+
+footer {
+    background-color: black;
+    color: white;
+} 
